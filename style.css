@@ -280,7 +280,9 @@ html {
   color: var(--muted);
   line-height: 1.7;
 }
-
+.contact-text + .contact-text {
+  margin-top: 8px;
+}
 .footer {
   text-align: center;
   padding: 24px;
