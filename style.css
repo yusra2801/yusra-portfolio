@@ -58,6 +58,9 @@ body {
 html {
   scroll-behavior: smooth;
 }
+section {
+  scroll-margin-top: 90px;
+}
 
 .hero {
   min-height: 75vh;
@@ -322,6 +325,7 @@ html {
 @media (max-width: 768px) {
   .navbar {
     position: static;
+   
     flex-direction: column;
     gap: 12px;
     padding: 14px 5%;
